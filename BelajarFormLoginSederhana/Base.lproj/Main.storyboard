@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,77 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BelajarFormLoginSederhana" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Form Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEU-0V-Szu">
+                                <rect key="frame" x="140" y="346" width="134.5" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="qhq-SB-z1a">
+                                <rect key="frame" x="20" y="414" width="374" height="80"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OXs-5J-lDQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="m3E-j9-LFy"/>
+                                            <constraint firstAttribute="width" constant="374" id="yXS-Yx-Lip"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HYZ-J7-aIx">
+                                        <rect key="frame" x="0.0" y="46" width="374" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="374" id="M1p-8s-e4o"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUe-iF-SMn">
+                                <rect key="frame" x="138" y="570" width="138" height="36"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="XoP-xA-LgK"/>
+                                    <constraint firstAttribute="height" constant="36" id="xia-zn-2rN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnPressLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dlh-3S-kqr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.68262567230000004" green="0.62941822439999995" blue="0.87243187919999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="VUe-iF-SMn" firstAttribute="centerX" secondItem="qhq-SB-z1a" secondAttribute="centerX" id="9J9-St-vBx"/>
+                            <constraint firstItem="xEU-0V-Szu" firstAttribute="centerX" secondItem="qhq-SB-z1a" secondAttribute="centerX" id="D9R-BQ-YBr"/>
+                            <constraint firstItem="VUe-iF-SMn" firstAttribute="top" secondItem="qhq-SB-z1a" secondAttribute="bottom" constant="54" id="O8x-Ky-4wn"/>
+                            <constraint firstItem="OXs-5J-lDQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VBa-ak-oic"/>
+                            <constraint firstItem="OXs-5J-lDQ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="aTK-V4-XiP"/>
+                            <constraint firstItem="xEU-0V-Szu" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="esB-eu-mAF"/>
+                            <constraint firstItem="qhq-SB-z1a" firstAttribute="top" secondItem="xEU-0V-Szu" secondAttribute="top" constant="68" id="qYa-f6-Z0C"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btnSignIn" destination="VUe-iF-SMn" id="h6n-KT-KW5"/>
+                        <outlet property="lblFormLogin" destination="xEU-0V-Szu" id="kHB-5G-ZHM"/>
+                        <outlet property="passwordField" destination="HYZ-J7-aIx" id="9uN-Ip-c0b"/>
+                        <outlet property="usernameField" destination="OXs-5J-lDQ" id="qtz-01-qfB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
         </scene>
     </scenes>
 </document>
