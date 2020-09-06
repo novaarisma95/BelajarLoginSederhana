@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		514F03522504E98E00E036B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03512504E98E00E036B3 /* AppDelegate.swift */; };
+		514F03542504E98E00E036B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03532504E98E00E036B3 /* SceneDelegate.swift */; };
+		514F03562504E98E00E036B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03552504E98E00E036B3 /* ViewController.swift */; };
+		514F03592504E98E00E036B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514F03572504E98E00E036B3 /* Main.storyboard */; };
+		514F035C2504E98E00E036B3 /* BelajarFormLoginSederhana.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 514F035A2504E98E00E036B3 /* BelajarFormLoginSederhana.xcdatamodeld */; };
+		514F035E2504E98F00E036B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514F035D2504E98F00E036B3 /* Assets.xcassets */; };
+		514F03612504E98F00E036B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514F035F2504E98F00E036B3 /* LaunchScreen.storyboard */; };
+		514F036C2504E98F00E036B3 /* BelajarFormLoginSederhanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F036B2504E98F00E036B3 /* BelajarFormLoginSederhanaTests.swift */; };
+		514F03772504E98F00E036B3 /* BelajarFormLoginSederhanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F03762504E98F00E036B3 /* BelajarFormLoginSederhanaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		514F03682504E98F00E036B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 514F03462504E98E00E036B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 514F034D2504E98E00E036B3;
+			remoteInfo = BelajarFormLoginSederhana;
+		};
+		514F03732504E98F00E036B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 514F03462504E98E00E036B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 514F034D2504E98E00E036B3;
+			remoteInfo = BelajarFormLoginSederhana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		514F034E2504E98E00E036B3 /* BelajarFormLoginSederhana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BelajarFormLoginSederhana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		514F03512504E98E00E036B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		514F03532504E98E00E036B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		514F03552504E98E00E036B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		514F03582504E98E00E036B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		514F035B2504E98E00E036B3 /* BelajarFormLoginSederhana.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BelajarFormLoginSederhana.xcdatamodel; sourceTree = "<group>"; };
+		514F035D2504E98F00E036B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		514F03602504E98F00E036B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		514F03622504E98F00E036B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		514F03672504E98F00E036B3 /* BelajarFormLoginSederhanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BelajarFormLoginSederhanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		514F036B2504E98F00E036B3 /* BelajarFormLoginSederhanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelajarFormLoginSederhanaTests.swift; sourceTree = "<group>"; };
+		514F036D2504E98F00E036B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		514F03722504E98F00E036B3 /* BelajarFormLoginSederhanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BelajarFormLoginSederhanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		514F03762504E98F00E036B3 /* BelajarFormLoginSederhanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelajarFormLoginSederhanaUITests.swift; sourceTree = "<group>"; };
+		514F03782504E98F00E036B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		514F034B2504E98E00E036B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514F03642504E98F00E036B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514F036F2504E98F00E036B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		514F03452504E98E00E036B3 = {
+			isa = PBXGroup;
+			children = (
+				514F03502504E98E00E036B3 /* BelajarFormLoginSederhana */,
+				514F036A2504E98F00E036B3 /* BelajarFormLoginSederhanaTests */,
+				514F03752504E98F00E036B3 /* BelajarFormLoginSederhanaUITests */,
+				514F034F2504E98E00E036B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		514F034F2504E98E00E036B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				514F034E2504E98E00E036B3 /* BelajarFormLoginSederhana.app */,
+				514F03672504E98F00E036B3 /* BelajarFormLoginSederhanaTests.xctest */,
+				514F03722504E98F00E036B3 /* BelajarFormLoginSederhanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		514F03502504E98E00E036B3 /* BelajarFormLoginSederhana */ = {
+			isa = PBXGroup;
+			children = (
+				514F03512504E98E00E036B3 /* AppDelegate.swift */,
+				514F03532504E98E00E036B3 /* SceneDelegate.swift */,
+				514F03552504E98E00E036B3 /* ViewController.swift */,
+				514F03572504E98E00E036B3 /* Main.storyboard */,
+				514F035D2504E98F00E036B3 /* Assets.xcassets */,
+				514F035F2504E98F00E036B3 /* LaunchScreen.storyboard */,
+				514F03622504E98F00E036B3 /* Info.plist */,
+				514F035A2504E98E00E036B3 /* BelajarFormLoginSederhana.xcdatamodeld */,
+			);
+			path = BelajarFormLoginSederhana;
+			sourceTree = "<group>";
+		};
+		514F036A2504E98F00E036B3 /* BelajarFormLoginSederhanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				514F036B2504E98F00E036B3 /* BelajarFormLoginSederhanaTests.swift */,
+				514F036D2504E98F00E036B3 /* Info.plist */,
+			);
+			path = BelajarFormLoginSederhanaTests;
+			sourceTree = "<group>";
+		};
+		514F03752504E98F00E036B3 /* BelajarFormLoginSederhanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				514F03762504E98F00E036B3 /* BelajarFormLoginSederhanaUITests.swift */,
+				514F03782504E98F00E036B3 /* Info.plist */,
+			);
+			path = BelajarFormLoginSederhanaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		514F034D2504E98E00E036B3 /* BelajarFormLoginSederhana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 514F037B2504E98F00E036B3 /* Build configuration list for PBXNativeTarget "BelajarFormLoginSederhana" */;
+			buildPhases = (
+				514F034A2504E98E00E036B3 /* Sources */,
+				514F034B2504E98E00E036B3 /* Frameworks */,
+				514F034C2504E98E00E036B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BelajarFormLoginSederhana;
+			productName = BelajarFormLoginSederhana;
+			productReference = 514F034E2504E98E00E036B3 /* BelajarFormLoginSederhana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		514F03662504E98F00E036B3 /* BelajarFormLoginSederhanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 514F037E2504E98F00E036B3 /* Build configuration list for PBXNativeTarget "BelajarFormLoginSederhanaTests" */;
+			buildPhases = (
+				514F03632504E98F00E036B3 /* Sources */,
+				514F03642504E98F00E036B3 /* Frameworks */,
+				514F03652504E98F00E036B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				514F03692504E98F00E036B3 /* PBXTargetDependency */,
+			);
+			name = BelajarFormLoginSederhanaTests;
+			productName = BelajarFormLoginSederhanaTests;
+			productReference = 514F03672504E98F00E036B3 /* BelajarFormLoginSederhanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		514F03712504E98F00E036B3 /* BelajarFormLoginSederhanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 514F03812504E98F00E036B3 /* Build configuration list for PBXNativeTarget "BelajarFormLoginSederhanaUITests" */;
+			buildPhases = (
+				514F036E2504E98F00E036B3 /* Sources */,
+				514F036F2504E98F00E036B3 /* Frameworks */,
+				514F03702504E98F00E036B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				514F03742504E98F00E036B3 /* PBXTargetDependency */,
+			);
+			name = BelajarFormLoginSederhanaUITests;
+			productName = BelajarFormLoginSederhanaUITests;
+			productReference = 514F03722504E98F00E036B3 /* BelajarFormLoginSederhanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		514F03462504E98E00E036B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Nova Arisma";
+				TargetAttributes = {
+					514F034D2504E98E00E036B3 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					514F03662504E98F00E036B3 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 514F034D2504E98E00E036B3;
+					};
+					514F03712504E98F00E036B3 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 514F034D2504E98E00E036B3;
+					};
+				};
+			};
+			buildConfigurationList = 514F03492504E98E00E036B3 /* Build configuration list for PBXProject "BelajarFormLoginSederhana" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 514F03452504E98E00E036B3;
+			productRefGroup = 514F034F2504E98E00E036B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				514F034D2504E98E00E036B3 /* BelajarFormLoginSederhana */,
+				514F03662504E98F00E036B3 /* BelajarFormLoginSederhanaTests */,
+				514F03712504E98F00E036B3 /* BelajarFormLoginSederhanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		514F034C2504E98E00E036B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514F03612504E98F00E036B3 /* LaunchScreen.storyboard in Resources */,
+				514F035E2504E98F00E036B3 /* Assets.xcassets in Resources */,
+				514F03592504E98E00E036B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514F03652504E98F00E036B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514F03702504E98F00E036B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		514F034A2504E98E00E036B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514F03562504E98E00E036B3 /* ViewController.swift in Sources */,
+				514F03522504E98E00E036B3 /* AppDelegate.swift in Sources */,
+				514F03542504E98E00E036B3 /* SceneDelegate.swift in Sources */,
+				514F035C2504E98E00E036B3 /* BelajarFormLoginSederhana.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514F03632504E98F00E036B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514F036C2504E98F00E036B3 /* BelajarFormLoginSederhanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514F036E2504E98F00E036B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514F03772504E98F00E036B3 /* BelajarFormLoginSederhanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		514F03692504E98F00E036B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 514F034D2504E98E00E036B3 /* BelajarFormLoginSederhana */;
+			targetProxy = 514F03682504E98F00E036B3 /* PBXContainerItemProxy */;
+		};
+		514F03742504E98F00E036B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 514F034D2504E98E00E036B3 /* BelajarFormLoginSederhana */;
+			targetProxy = 514F03732504E98F00E036B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		514F03572504E98E00E036B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				514F03582504E98E00E036B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		514F035F2504E98F00E036B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				514F03602504E98F00E036B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		514F03792504E98F00E036B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		514F037A2504E98F00E036B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		514F037C2504E98F00E036B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6FVCC3X3F;
+				INFOPLIST_FILE = BelajarFormLoginSederhana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tester.BelajarFormLoginSederhana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		514F037D2504E98F00E036B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6FVCC3X3F;
+				INFOPLIST_FILE = BelajarFormLoginSederhana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tester.BelajarFormLoginSederhana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		514F037F2504E98F00E036B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6FVCC3X3F;
+				INFOPLIST_FILE = BelajarFormLoginSederhanaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tester.BelajarFormLoginSederhanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BelajarFormLoginSederhana.app/BelajarFormLoginSederhana";
+			};
+			name = Debug;
+		};
+		514F03802504E98F00E036B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6FVCC3X3F;
+				INFOPLIST_FILE = BelajarFormLoginSederhanaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tester.BelajarFormLoginSederhanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BelajarFormLoginSederhana.app/BelajarFormLoginSederhana";
+			};
+			name = Release;
+		};
+		514F03822504E98F00E036B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6FVCC3X3F;
+				INFOPLIST_FILE = BelajarFormLoginSederhanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tester.BelajarFormLoginSederhanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BelajarFormLoginSederhana;
+			};
+			name = Debug;
+		};
+		514F03832504E98F00E036B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6FVCC3X3F;
+				INFOPLIST_FILE = BelajarFormLoginSederhanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tester.BelajarFormLoginSederhanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BelajarFormLoginSederhana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		514F03492504E98E00E036B3 /* Build configuration list for PBXProject "BelajarFormLoginSederhana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514F03792504E98F00E036B3 /* Debug */,
+				514F037A2504E98F00E036B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		514F037B2504E98F00E036B3 /* Build configuration list for PBXNativeTarget "BelajarFormLoginSederhana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514F037C2504E98F00E036B3 /* Debug */,
+				514F037D2504E98F00E036B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		514F037E2504E98F00E036B3 /* Build configuration list for PBXNativeTarget "BelajarFormLoginSederhanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514F037F2504E98F00E036B3 /* Debug */,
+				514F03802504E98F00E036B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		514F03812504E98F00E036B3 /* Build configuration list for PBXNativeTarget "BelajarFormLoginSederhanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514F03822504E98F00E036B3 /* Debug */,
+				514F03832504E98F00E036B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		514F035A2504E98E00E036B3 /* BelajarFormLoginSederhana.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				514F035B2504E98E00E036B3 /* BelajarFormLoginSederhana.xcdatamodel */,
+			);
+			currentVersion = 514F035B2504E98E00E036B3 /* BelajarFormLoginSederhana.xcdatamodel */;
+			path = BelajarFormLoginSederhana.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 514F03462504E98E00E036B3 /* Project object */;
+}
