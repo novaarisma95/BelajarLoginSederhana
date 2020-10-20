@@ -22,17 +22,19 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnPressLogin(_ sender: Any) {
-        let username = usernameField.text!
+            let username = usernameField.text!
             let password = passwordField.text!
-            
-            if username.isEmpty || password.isEmpty {
+            let LoginKosong = username.isEmpty || password.isEmpty
+            let LoginSucces = (username == "test") && (password == "12345")
+        
+             if LoginKosong {
                 let alertkosong = UIAlertController(title: "Form Login", message: "Form tidak boleh kosong", preferredStyle: .alert)
                 let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
                 alertkosong.addAction(okAction)
                 present(alertkosong, animated: true, completion: nil)
                 return
             }
-            if (username == "test") && (password == "12345") {
+            if LoginSucces {
                 let alert = UIAlertController( title: "Success",
                                                message: "Selamat Datang Di Aplikasi ini",
                                                preferredStyle: .alert )
